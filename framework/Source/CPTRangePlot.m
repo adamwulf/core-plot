@@ -1026,7 +1026,7 @@ typedef struct CGPointError CGPointError;
     }
 
     NSNumber *yValue;
-    CPTNumberArray *yValues       = @[[self cachedNumberForField:CPTRangePlotFieldY recordIndex:idx]];
+    CPTNumberArray *yValues       = @[(id)[self cachedNumberForField:CPTRangePlotFieldY recordIndex:idx]];
     CPTNumberArray *yValuesSorted = [yValues sortedArrayUsingSelector:@selector(compare:)];
     if ( positiveDirection ) {
         yValue = yValuesSorted.lastObject;

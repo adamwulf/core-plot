@@ -1223,10 +1223,10 @@ static const CPTCoordinate dependentCoord   = CPTCoordinateY;
 
     NSNumber *xValue = [self cachedNumberForField:CPTTradingRangePlotFieldX recordIndex:idx];
     NSNumber *yValue;
-    CPTNumberArray *yValues = @[[self cachedNumberForField:CPTTradingRangePlotFieldOpen recordIndex:idx],
-                                [self cachedNumberForField:CPTTradingRangePlotFieldClose recordIndex:idx],
-                                [self cachedNumberForField:CPTTradingRangePlotFieldHigh recordIndex:idx],
-                                [self cachedNumberForField:CPTTradingRangePlotFieldLow recordIndex:idx]];
+    CPTNumberArray *yValues = @[(id)[self cachedNumberForField:CPTTradingRangePlotFieldOpen recordIndex:idx],
+                                (id)[self cachedNumberForField:CPTTradingRangePlotFieldClose recordIndex:idx],
+                                (id)[self cachedNumberForField:CPTTradingRangePlotFieldHigh recordIndex:idx],
+                                (id)[self cachedNumberForField:CPTTradingRangePlotFieldLow recordIndex:idx]];
     CPTNumberArray *yValuesSorted = [yValues sortedArrayUsingSelector:@selector(compare:)];
     if ( positiveDirection ) {
         yValue = yValuesSorted.lastObject;

@@ -57,19 +57,19 @@
             <anchor>//apple_ref/doc/c_ref/NSEraCalendarUnit</anchor>
         </member>
         <member kind="enumvalue">
-            <name>NSYearCalendarUnit</name>
+            <name>NSCalendarUnitYear</name>
             <anchorfile>https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSCalendar_Class/Reference/NSCalendar.html</anchorfile>
-            <anchor>//apple_ref/doc/c_ref/NSYearCalendarUnit</anchor>
+            <anchor>//apple_ref/doc/c_ref/NSCalendarUnitYear</anchor>
         </member>
         <member kind="enumvalue">
-            <name>NSMonthCalendarUnit</name>
+            <name>NSCalendarUnitMonth</name>
             <anchorfile>https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSCalendar_Class/Reference/NSCalendar.html</anchorfile>
-            <anchor>//apple_ref/doc/c_ref/NSMonthCalendarUnit</anchor>
+            <anchor>//apple_ref/doc/c_ref/NSCalendarUnitMonth</anchor>
         </member>
         <member kind="enumvalue">
-            <name>NSDayCalendarUnit</name>
+            <name>NSCalendarUnitDay</name>
             <anchorfile>https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSCalendar_Class/Reference/NSCalendar.html</anchorfile>
-            <anchor>//apple_ref/doc/c_ref/NSDayCalendarUnit</anchor>
+            <anchor>//apple_ref/doc/c_ref/NSCalendarUnitDay</anchor>
         </member>
         <member kind="enumvalue">
             <name>NSHourCalendarUnit</name>
